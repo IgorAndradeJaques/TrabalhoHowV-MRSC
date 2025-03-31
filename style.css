@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2f2325 16.62%, #8E5D52 85.61%) ;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    border-bottom: 0.4px solid #fff2e7;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 60px;
+}
+
+.menu-item {
+    font-family: "Comfortaa", sans-serif;
+    color: #fffaf6;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.slider{
+    margin: 0 auto;
+    margin-left: 28%;
+    padding-top: 30px;
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+    transition: 1s;
+}
+
+.slide img{
+    width: 600px;
+}
+
+.manual-btn:not(:last-child){    
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: #fff;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+.rodape {
+    padding: 32px;
+    margin: 32px;
+    padding-bottom: 0%;
+    border-top: 0.4px solid #fff2e7;
+    font-family: "Comfortaa", sans-serif;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18 px;
+
+}
+
+.cabecalho-rodape {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+
+.rodape-item {
+    color: #fffaf6;
+}
+
+.frase {
+    display: flex;
+    justify-content: end;
+    margin-top: -2%;
+}
+
+.logoinsta {
+    border-radius: 30%;
+}
+
+.logowhats {
+    border-radius: 30%;
+}
