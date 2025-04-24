@@ -122,3 +122,56 @@ body {
 .logowhats {
     border-radius: 30%;
 }
+
+.corpoprincipal {
+   
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#doar {
+    color: rgb(0, 0, 0);
+    height: auto;
+    background-color: #ffe922;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.teste1 {
+    width: 800px;
+    height: 600px;
+    background-color: #f7bf28;
+    border-radius: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.teste2 {
+    width: 400px;
+    height: 600px;
+    background-color: #2f2325;
+    border-radius: 100px;
+    display: flexblox;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 50px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.quemsomosmain {
+    display: flex;
+    justify-content: space-around;
+}
+
+#nome1 {
+    font-size: 28px;
+}
